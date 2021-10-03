@@ -1,0 +1,89 @@
+MDScreen:
+    name: "main"
+    bot_name: bot_name
+    MDFloatLayout:
+        md_bg_color: 1, 1, 1, 1
+        Image:
+            source: "Image/splash.jpg"
+            size_hint: .8, .5
+            pos_hint: {"center_x": .5, "center_y": .8}
+        MDLabel:
+            text: "Welcome, Sir/Madam!"
+            font_name: "Poppins/Poppins-SemiBoldItalic.ttf"
+            font_size: "30sp"
+            pos_hint: {"center_x": .5, "center_y": .58}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 53/255, 56/265, 60/255, 1
+        MDLabel:
+            text: "I am your virtual personal assistant.\nNice to meet you!"
+            size_hint_x: .9
+            font_name: "Poppins/Poppins-Regular.ttf"
+            font_size: "18sp"
+            pos_hint: {"center_x": .5, "center_y": .45}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 53/255, 56/265, 60/255, 1
+        MDLabel:
+            text: "Read me first"
+            font_name: "Poppins/Poppins-Regular.ttf"
+            font_size: "18sp"
+            pos_hint: {"center_x": .5, "center_y": .33}
+            halign: "center"
+            theme_text_color: "Custom"
+            underline: "True"
+            text_color: 1, 170/255, 23/255, 1
+
+        MDFloatLayout:
+            size_hint: .85, .08
+            pos_hint: {"center_x": .5, "center_y": .33}
+            canvas:
+                Color:
+                    rgb: (238/255, 238/255, 238/255, 1)
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [22, 22, 22, 22]
+            TextInput:
+                id: bot_name
+                hint_text: "Enter assistant's name"
+                size_hint: 1, None
+                pos_hint: {"center_x": .5, "center_y": .5}
+                font_size: "18sp"
+                height: self.minimum_height
+                cursor_color: 30/255, 144/255, 1
+                cursor_width: "2sp"
+                background_color: 0, 0, 0, 0
+                padding: 15
+                font_name: "Poppins/Poppins-Regular.ttf"
+        MDFloatLayout:
+            size_hint: .45, .08
+            pos_hint: {"center_x": .5, "center_y": .1}
+            canvas:
+                Color:
+                    rgb: (30/255, 144/255, 1)
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [22, 22, 22, 22]
+        Button:
+            text: ""
+            size_hint: 70, .09
+            pos_hint: {"center_x": .5, "center_y": .1}
+            background_color: 0, 0, 0, 0
+            on_release:
+                root.manager.transition.direction = "left"
+                root.manager.current = "chats"
+                app.bot_name()
+
+        MDLabel:
+            text: "Let's get started"
+            halign: "center"
+            pos_hint: {"center_y": .1}
+            font_name: "Poppins/Poppins-SemiBold.ttf"
+            font_size: "15sp"
+            color: 1, 1, 1, 1
+
+
+
+
