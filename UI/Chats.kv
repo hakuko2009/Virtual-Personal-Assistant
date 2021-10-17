@@ -27,6 +27,7 @@
             radius: [20, 20, 20, 0]
 
 MDScreen:
+    on_enter: app.wishMe()
     bot_name: bot_name
     text_input: text_input
     chat_list: conversation_list
@@ -38,6 +39,7 @@ MDScreen:
             size_hint_y: .11
             pos_hint: {"center_y": .95}
             MDLabel:
+                md_bg_color: 225/255, 1, 1, 1
                 id: bot_name
                 text: ""
                 pos_hint: {"center_y": .5}
@@ -73,8 +75,11 @@ MDScreen:
                         size: self.size
                         pos: self.pos
                         radius: [23, 23, 23, 23]
+
                 TextInput:
                     id: text_input
+                    multiline: False
+                    on_text_validate: app.send()
                     hint_text: "Ask me something..."
                     size_hint: 1, None
                     pos_hint: {"center_x": .5, "center_y": .5}

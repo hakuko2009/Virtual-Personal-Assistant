@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecc03702-9340-482e-b879-4af7db9c86de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="644b150c-0562-455d-bdd0-07da1631f53c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFX/messageSent.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Chats.kv" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Chats.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Main.kv" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Main.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalassistant.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalassistant.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,60 +24,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2021.2/python_stubs/-1629552189/_tkinter.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Class.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/kivy/lang/parser.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/personalassistant.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI/Chats.kv" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UI/Main.kv" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2021.2/python_stubs/-1629552189/winsound.py" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectId" id="1ylzaM7Qy0Vp1qwqGNJvtqjwmo9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1zGen5Ss6Ygp6iu6yNLeTTgBCB0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/personalassistant.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\PycharmProjects\GUI" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.personalassistant">
-    <configuration name="_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GUI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/JetBrains/PyCharm2021.2/python_stubs/-1629552189" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/JetBrains/PyCharm2021.2/python_stubs/-1629552189/_tkinter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="personalassistant" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="personalassistant" type="PythonConfigurationType" factoryName="Python">
       <module name="GUI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +58,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\GUI\personalassistant.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personalassistant.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,34 +67,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python._tkinter" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ecc03702-9340-482e-b879-4af7db9c86de" name="Changes" comment="" />
-      <created>1632841025652</created>
+      <changelist id="644b150c-0562-455d-bdd0-07da1631f53c" name="Changes" comment="" />
+      <created>1633779042556</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632841025652</updated>
-      <workItem from="1632841050216" duration="3383000" />
-      <workItem from="1632845888298" duration="289000" />
-      <workItem from="1632846219058" duration="5346000" />
-      <workItem from="1632987274526" duration="1265000" />
-      <workItem from="1633002667409" duration="82000" />
-      <workItem from="1633010583794" duration="1751000" />
-      <workItem from="1633012898988" duration="2327000" />
-      <workItem from="1633025658489" duration="1250000" />
-      <workItem from="1633056334815" duration="5419000" />
-      <workItem from="1633079174376" duration="17433000" />
-      <workItem from="1633226544561" duration="6206000" />
-      <workItem from="1633234305565" duration="8116000" />
-      <workItem from="1633249803217" duration="2009000" />
-      <workItem from="1633253683276" duration="3177000" />
+      <updated>1633779042556</updated>
+      <workItem from="1633779050887" duration="3884000" />
+      <workItem from="1633787778077" duration="11279000" />
+      <workItem from="1633852248712" duration="8919000" />
+      <workItem from="1633874479946" duration="4660000" />
+      <workItem from="1633909461706" duration="212000" />
+      <workItem from="1633910376589" duration="1102000" />
+      <workItem from="1633911550496" duration="4196000" />
+      <workItem from="1634051550197" duration="2706000" />
+      <workItem from="1634200265503" duration="7151000" />
+      <workItem from="1634248182367" duration="9415000" />
+      <workItem from="1634397778769" duration="4386000" />
+      <workItem from="1634452681635" duration="8360000" />
+      <workItem from="1634479503432" duration="2739000" />
     </task>
     <servers />
   </component>
@@ -130,9 +96,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GUI$client.coverage" NAME="client Coverage Results" MODIFIED="1633061119655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GUI$_tkinter.coverage" NAME="_tkinter Coverage Results" MODIFIED="1632850476721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/JetBrains/PyCharm2021.2/python_stubs/-1629552189" />
-    <SUITE FILE_PATH="coverage/GUI$personalassistant.coverage" NAME="personalassistant Coverage Results" MODIFIED="1633250418613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GUI$main.coverage" NAME="personalassistant Coverage Results" MODIFIED="1633116859012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GUI$personalassistant.coverage" NAME="personalassistant Coverage Results" MODIFIED="1634484412126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
